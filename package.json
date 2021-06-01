@@ -2,7 +2,7 @@
   "name": "unfluff",
   "version": "3.2.0",
   "description": "A web page content extractor",
-  "homepage": "https://github.com/ageitgey/node-unfluff",
+  "homepage": "https://github.com/scotttesler/node-unfluff",
   "keywords": [
     "content extraction",
     "html",
@@ -11,15 +11,11 @@
     "web page",
     "body text"
   ],
-  "author": {
-    "name": "Adam Geitgey",
-    "email": "ageitgey@gmail.com"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ageitgey/node-unfluff"
+    "url": "git://github.com/scotttesler/node-unfluff"
   },
-  "bugs": "https://github.com/ageitgey/node-unfluff/issues",
+  "bugs": "https://github.com/scotttesler/node-unfluff/issues",
   "main": "lib/unfluff.js",
   "directories": {
     "bin": "bin",
@@ -27,18 +23,18 @@
     "test": "test"
   },
   "dependencies": {
-    "cheerio": "~0.22.0",
-    "optimist": "~0.6.1",
-    "lodash": "~4.17.10",
-    "xregexp": "~2.0.0"
+    "cheerio": "^1.0.0-rc.9",
+    "lodash": "^4.17.21",
+    "optimist": "^0.5.2",
+    "xregexp": "^5.0.2"
   },
   "devDependencies": {
-    "coffee-script-redux": "2.0.0-beta7",
-    "commonjs-everywhere": "0.9.x",
-    "mocha": "~1.12.1",
-    "scopedfs": "~0.1.0",
-    "semver": "~4.3.2",
-    "deep-equal": "~0.2.1"
+    "coffee-script-redux": "^2.0.0-beta8",
+    "commonjs-everywhere": "^0.9.7",
+    "deep-equal": "^2.0.5",
+    "mocha": "^8.4.0",
+    "scopedfs": "^0.1.0",
+    "semver": "^7.3.5"
   },
   "scripts": {
     "test": "make test"
@@ -46,7 +42,7 @@
   "licenses": [
     {
       "type": "Apache",
-      "url": "https://github.com/ageitgey/node-unfluff/blob/master/LICENSE"
+      "url": "https://github.com/scotttesler/node-unfluff/blob/master/LICENSE"
     }
   ]
 }
