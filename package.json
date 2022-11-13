@@ -32,7 +32,7 @@
     "coffee-script-redux": "^2.0.0-beta8",
     "commonjs-everywhere": "^0.9.7",
     "deep-equal": "^2.0.5",
-    "mocha": "^8.4.0",
+    "mocha": "^10.1.0",
     "scopedfs": "^0.1.0",
     "semver": "^7.3.5"
   },
