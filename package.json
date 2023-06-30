@@ -34,7 +34,7 @@
     "deep-equal": "^2.0.5",
     "mocha": "^8.4.0",
     "scopedfs": "^0.1.0",
-    "semver": "^7.3.5"
+    "semver": "^7.5.2"
   },
   "scripts": {
     "test": "make test"
